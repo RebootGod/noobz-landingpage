@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3009:3009"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:3009/ >/dev/null"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
