@@ -3,13 +3,55 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Noobz Streaming</title>
-    <meta name="description" content="Nonton Film dan Series Bahasa Indonesia">
-    <meta property="og:title" content="Noobz Streaming">
-    <meta property="og:description" content="Nonton Film dan Series Bahasa Indonesia">
+    <title>Noobz Streaming | Nonton Film dan Series Bahasa Indonesia</title>
+    <meta name="description" content="Noobz Streaming adalah halaman akses cepat untuk nonton film dan series dengan pengalaman streaming berbahasa Indonesia.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#09090b">
+    <link rel="canonical" href="https://noobz.space/">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:site_name" content="Noobz Streaming">
+    <meta property="og:title" content="Noobz Streaming | Nonton Film dan Series Bahasa Indonesia">
+    <meta property="og:description" content="Akses cepat ke Noobz Streaming untuk menikmati film dan series berbahasa Indonesia.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="/public/logo.png">
+    <meta property="og:url" content="https://noobz.space/">
+    <meta property="og:image" content="https://noobz.space/public/logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="614">
+    <meta property="og:image:alt" content="Logo Noobz Streaming">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Noobz Streaming | Nonton Film dan Series Bahasa Indonesia">
+    <meta name="twitter:description" content="Akses cepat ke Noobz Streaming untuk menikmati film dan series berbahasa Indonesia.">
+    <meta name="twitter:image" content="https://noobz.space/public/logo.png">
     <link rel="icon" href="/public/logo.png">
+    <link rel="apple-touch-icon" href="/public/logo.png">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Noobz Streaming",
+        "url": "https://noobz.space/",
+        "description": "Noobz Streaming adalah halaman akses cepat untuk nonton film dan series dengan pengalaman streaming berbahasa Indonesia.",
+        "inLanguage": "id-ID",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Noobz Space",
+          "url": "https://noobz.space/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://noobz.space/public/logo.png",
+            "width": 1200,
+            "height": 614
+          }
+        },
+        "sameAs": [
+          "https://t.me/noobzchannel"
+        ],
+        "potentialAction": {
+          "@type": "ViewAction",
+          "target": "https://stream.noobz.space"
+        }
+      }
+    </script>
     <style>
       * {
         box-sizing: border-box;
@@ -69,11 +111,24 @@
         line-height: 1.7;
       }
 
+      .intro {
+        margin-top: 18px;
+        font-size: clamp(17px, 2.7vw, 20px);
+      }
+
       .buttons {
         display: flex;
         justify-content: center;
         gap: 12px;
         margin-top: 40px;
+      }
+
+      .seo-copy {
+        max-width: 620px;
+        margin: 34px auto 0;
+        color: #a1a1aa;
+        font-size: 15px;
+        line-height: 1.8;
       }
 
       a {
@@ -126,14 +181,16 @@
   </head>
   <body>
     <main>
-      <img src="/public/logo.png" alt="Noobz Streaming">
+      <img src="/public/logo.png" alt="Logo Noobz Streaming" width="1200" height="614" fetchpriority="high">
       <div class="eyebrow">Noobz Space</div>
       <h1>Noobz Streaming</h1>
-      <p>Nonton Film dan Series Bahasa Indonesia</p>
+      <p>Nonton film dan series bahasa Indonesia dalam satu akses cepat.</p>
+      <p class="intro">Masuk ke Noobz Streaming untuk menemukan hiburan favorit dengan tampilan sederhana, cepat, dan nyaman digunakan dari desktop maupun mobile.</p>
       <div class="buttons">
-        <a class="primary" href="https://stream.noobz.space">Buka Streaming</a>
-        <a class="secondary" href="https://t.me/noobzchannel">Telegram</a>
+        <a class="primary" href="https://stream.noobz.space" aria-label="Buka Noobz Streaming">Buka Streaming</a>
+        <a class="secondary" href="https://t.me/noobzchannel" rel="me noopener" aria-label="Ikuti Noobz Channel di Telegram">Telegram</a>
       </div>
+      <p class="seo-copy">Noobz Streaming menyediakan pintu masuk langsung untuk nonton film online dan series populer dengan bahasa Indonesia. Ikuti kanal Telegram Noobz untuk kabar terbaru dan pembaruan akses.</p>
     </main>
   </body>
 </html>
